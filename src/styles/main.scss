@@ -1,5 +1,16 @@
 @use 'variaveis';
 @use 'hero';
+@font-face {
+    font-family: Avenir;
+    src: url(../../assets/fonts/Avenir-Regular.woff2) format('woof2');
+    font-weight: 400;
+}
+@font-face {
+    font-family: Avenir;
+    src: url(../../assets/fonts/Avenir-Bold.woff2) format('woof2');
+    font-weight: 700;
+}
+
 
 *{
     margin: 0;
@@ -21,6 +32,7 @@
 
 body{
     background-color: variaveis.$corDeFundo;
+    font-family: Avenir, sans-serif;
 }
 
 .text--big{
